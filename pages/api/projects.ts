@@ -43,7 +43,7 @@ let projects = [
     id: 3,
     name: 'Memogram',
     description: 'Memogram is a infinity scroll meme website. It is made with React and Next.js (private repo)',
-    img: 'https://github.com/vsecoder/vsecoder/blob/main/banners/memogram.jpg',
+    img: 'https://raw.githubusercontent.com/vsecoder/vsecoder/main/banners/memogram.jpg',
     now_status: 'Closed',
     badges: [
       {
