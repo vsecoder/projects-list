@@ -3,7 +3,7 @@ FROM node:alpine
 COPY ./ ./
 
 # Install all dependencies (with dev ones)
-RUN npm install
+RUN npm i --force
 
 # Build app
 RUN npm run build
