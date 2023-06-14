@@ -24,8 +24,6 @@ export default function IndexPage() {
 
   if (error) return <div>Server Error</div>;
 
-  data?.reverse();
-
   return (
     <>
       {isValidating || isLoading ? (

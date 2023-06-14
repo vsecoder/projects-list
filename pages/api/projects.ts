@@ -185,6 +185,28 @@ let projects = [
   },
   {
     id: 9,
+    name: 'HikkaHost',
+    description: 'Hosting for Hikka userbot on powerful servers with fully automatic installation and management',
+    img: 'https://avatars.githubusercontent.com/u/128410002?s=200&v=4',
+    now_status: 'Completed',
+    badges: [
+      {
+        label: 'python',
+        emoji: '🐍'
+      },
+      {
+        label: 'business',
+        emoji: '💼'
+      },
+      {
+        label: 'useful',
+        emoji: '🔌'
+      }
+    ],
+    link: 'https://hikkahost.tech/',
+  },
+  {
+    id: 10,
     name: 'TomatoClanBot',
     description: 'Clan game in Telegram. Rules: https://telegra.ph/Klan-tomatov-03-30',
     img: 'https://raw.githubusercontent.com/vsecoder/vsecoder/main/banners/tomatoclan.jpg',
@@ -206,6 +228,8 @@ let projects = [
     link: 'https://github.com/vsecoder/TomatoClanBot',
   }
 ]
+
+projects.reverse();
 
 export default function handler(
   req: NextApiRequest,
