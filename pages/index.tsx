@@ -2,6 +2,7 @@ import { ProjectCard } from "../components/Card";
 import useSWR from 'swr';
 import { Data, DataError } from "../interfaces";
 import { Container, Text } from "@mantine/core";
+import Link from "next/link";
 
 
 const fetcher = async (url: string) => {
@@ -46,7 +47,7 @@ export default function IndexPage() {
         </Container>
       )}
       <Text align="center" mt="lg">
-        <a href="/api/projects">Link to API</a>
+        <Link href="/api/projects">Link to API</Link>
       </Text>
     </>
   );
