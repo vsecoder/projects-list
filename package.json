@@ -17,6 +17,8 @@
     "@mantine/next": "6.0.0",
     "@tabler/icons-react": "^2.22.0",
     "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "@types/react": "^18.0.10",
     "@types/react-dom": "^18.0.5",
     "swr": "^2.1.5"
