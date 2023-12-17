@@ -226,6 +226,28 @@ let projects = [
       }
     ],
     link: 'https://github.com/vsecoder/TomatoClanBot',
+  },
+  {
+    id: 11,
+    name: 'group-schedule-bot',
+    description: 'Schedule of pairs of groups with reminder notifications about tomorrow\'s couples!',
+    img: 'https://raw.githubusercontent.com/vsecoder/vsecoder.github.io/gh-pages/fspo.jpg',
+    now_status: 'In progress',
+    badges: [
+      {
+        label: 'python',
+        emoji: '🐍'
+      },
+      {
+        label: 'fun',
+        emoji: '🤣'
+      },
+      {
+        label: 'useful',
+        emoji: '🔌'
+      }
+    ],
+    link: 'https://github.com/vsecoder/group-schedule-bot',
   }
 ]
 
