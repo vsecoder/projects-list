@@ -203,7 +203,7 @@ let projects = [
         emoji: '🔌'
       }
     ],
-    link: 'https://hikkahost.tech/',
+    link: 'https://hikkahost.vercel.app/',
   },
   {
     id: 10,
